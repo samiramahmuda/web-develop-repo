@@ -26,6 +26,9 @@ nav{
 
 
 /* shared style */
+.text-center{
+    text-align: center;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -78,4 +81,59 @@ nav li a {
 }
 .banner-profile-pic {
     width: 580px;
+}
+/* main  styling */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+     margin-top: 130px;
+     margin-bottom: 130px;
+}
+.about {
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+   
+}
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description {
+    font-size: 18px;
+    color: #757575;
+    /* background-color: #FFFFFF; */
+    border-color: #000000;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title {
+    font-size: 20px;
+    color: #757575;
+}
+.item-description{
+    font-weight: bold;
+    color: #474747;
+}
+/* skills styling */
+.skills{
+
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill {
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill-description{
+
 }
